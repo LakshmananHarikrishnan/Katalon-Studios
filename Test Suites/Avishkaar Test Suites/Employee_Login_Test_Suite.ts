@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Employee_Login_Test_Suite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>272772bf-c22f-432a-9188-37aea35fa296</testSuiteGuid>
+   <testCaseLink>
+      <guid>aa2c9400-3178-46e4-9601-cf4f2e35395c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Avishkaar Test Cases/Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>2833838f-e2b9-4678-9959-ddadfd62d91e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Avishkaar Data Files/Employee_Credentials</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>2833838f-e2b9-4678-9959-ddadfd62d91e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>9c9c8da5-ab18-4ac5-982e-50cc631d4c19</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2833838f-e2b9-4678-9959-ddadfd62d91e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>3fbff27c-abf7-4247-998f-cd92ba4216bf</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
