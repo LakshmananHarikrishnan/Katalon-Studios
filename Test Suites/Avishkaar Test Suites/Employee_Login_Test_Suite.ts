@@ -15,6 +15,13 @@
       <guid>aa2c9400-3178-46e4-9601-cf4f2e35395c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>''</defaultValue>
+         <description></description>
+         <id>9c9c8da5-ab18-4ac5-982e-50cc631d4c19</id>
+         <masked>false</masked>
+         <name>Username</name>
+      </iterationNameVariable>
       <testCaseId>Test Cases/Avishkaar Test Cases/Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

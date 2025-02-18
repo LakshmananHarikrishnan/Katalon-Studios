@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://sftd1--testingcoe.sandbox.my.site.com/CRMITCommunity/s/')
+WebUI.click(findTestObject('Avishkaar Object Repository/Logout_Page/Logout_Icon'))
 
-WebUI.setText(findTestObject('Avishkaar Object Repository/Login_Page/Username'), Username)
-
-WebUI.setText(findTestObject('Avishkaar Object Repository/Login_Page/Password'), Password)
-
-WebUI.click(findTestObject('Avishkaar Object Repository/Login_Page/Login_Button'))
+WebUI.click(findTestObject('Avishkaar Object Repository/Logout_Page/Logout_Button'))
 
