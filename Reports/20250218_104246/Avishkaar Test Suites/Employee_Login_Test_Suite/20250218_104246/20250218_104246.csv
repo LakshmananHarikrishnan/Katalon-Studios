@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Employee_Login_Test_Suite,,,,18-02-2025 10:42:49,18-02-2025 10:42:54,4.707s,FAILED
+,,,,,,,
+Test Cases/Avishkaar Test Cases/Login,,Community Portal Login,,18-02-2025 10:42:49,18-02-2025 10:42:54,4.541s,FAILED
+"openBrowser("""")",,,,18-02-2025 10:42:49,18-02-2025 10:42:54,4.332s,FAILED

@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Employee_Login_Test_Suite,,,,18-02-2025 10:45:43,18-02-2025 10:45:48,4.667s,FAILED
+,,,,,,,
+Test Cases/Avishkaar Test Cases/Login,,Community Portal Login,,18-02-2025 10:45:43,18-02-2025 10:45:48,4.541s,FAILED
+"openBrowser(""https://sftd1--testingcoe.sandbox.my.site.com/CRMITCommunity/s/"")",,,,18-02-2025 10:45:43,18-02-2025 10:45:48,4.337s,FAILED

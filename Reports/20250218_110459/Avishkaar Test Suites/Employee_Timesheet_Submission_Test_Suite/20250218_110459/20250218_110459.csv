@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Employee_Timesheet_Submission_Test_Suite,,,,18-02-2025 11:05:02,18-02-2025 11:05:06,4.098s,FAILED
+,,,,,,,
+Test Cases/Avishkaar Test Cases/Timesheet Management/Employee_Timesheet_Submission,,,,18-02-2025 11:05:02,18-02-2025 11:05:06,3.859s,FAILED
+delay(3),,,,18-02-2025 11:05:02,18-02-2025 11:05:05,3.082s,PASSED
+"click(findTestObject(""Avishkaar Object Repository/Timesheet Management/Home_Page/Timesheet""))",,,,18-02-2025 11:05:05,18-02-2025 11:05:06,0.244s,FAILED
