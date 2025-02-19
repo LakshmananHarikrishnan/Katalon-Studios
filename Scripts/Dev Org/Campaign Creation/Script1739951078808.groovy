@@ -27,6 +27,8 @@ WebUI.click(findTestObject('Salesforce Dev Org Objects/Campaign_Creation/Page_Ho
 
 WebUI.click(findTestObject('Object Repository/Salesforce Dev Org Objects/Campaign_Creation/Page_Recently Viewed  Campaigns  Salesforce/div_New'))
 
+WebUI.delay(2)
+
 WebUI.takeFullPageScreenshotAsCheckpoint('Campaign Creation Page')
 
 WebUI.setText(findTestObject('Salesforce Dev Org Objects/Campaign_Creation/Page_New Campaign  Salesforce/Campaign_Name'), 
