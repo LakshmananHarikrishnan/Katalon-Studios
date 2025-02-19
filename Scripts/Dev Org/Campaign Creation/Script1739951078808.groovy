@@ -17,17 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.delay(2)
 
-WebUI.navigateToUrl('https://crmitsolutions-b1-dev-ed.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fcrmitsolutions-b1-dev-ed.lightning.force.com%252Flightning%252Fpage%252Fhome')
+WebUI.click(findTestObject('Salesforce Dev Org Objects/Campaign_Creation/Page_Home  Salesforce/App_Launcher'))
 
-WebUI.takeScreenshotAsCheckpoint('Login Page')
+WebUI.setText(findTestObject('Salesforce Dev Org Objects/Campaign_Creation/Page_Home  Salesforce/Search_Text_Box'), 'Campaigns')
 
-WebUI.setText(findTestObject('Object Repository/Salesforce Dev Org Objects/Login_Page/input_Username_username'), 'lakshmanan.harikrishnan@crmit.com')
+WebUI.click(findTestObject('Salesforce Dev Org Objects/Campaign_Creation/Page_Home  Salesforce/Campaigns'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Salesforce Dev Org Objects/Login_Page/input_Password_pw'), 'dODec5gxO+bcNM/P08QXrg==')
+WebUI.click(findTestObject('Object Repository/Salesforce Dev Org Objects/Campaign_Creation/Page_Recently Viewed  Campaigns  Salesforce/div_New'))
 
-WebUI.click(findTestObject('Object Repository/Salesforce Dev Org Objects/Login_Page/input_Password_Login'))
+WebUI.takeFullPageScreenshotAsCheckpoint('Campaign Creation Page')
 
-WebUI.takeScreenshotAsCheckpoint('Salesforce Home Page')
+WebUI.setText(findTestObject('Salesforce Dev Org Objects/Campaign_Creation/Page_New Campaign  Salesforce/Campaign_Name'), 
+    'Test')
+
+WebUI.takeFullPageScreenshotAsCheckpoint('Campaign details before Save')
+
+WebUI.click(findTestObject('Object Repository/Salesforce Dev Org Objects/Campaign_Creation/Page_New Campaign  Salesforce/Save'))
+
+WebUI.click(findTestObject('Salesforce Dev Org Objects/Campaign_Creation/Page_New Campaign  Salesforce/Campaign_Details_Tab'))
+
+WebUI.takeFullPageScreenshotAsCheckpoint('Campaign detals after save')
 
