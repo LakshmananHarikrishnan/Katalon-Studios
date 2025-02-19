@@ -40,3 +40,5 @@ WebUI.click(findTestObject('Salesforce Dev Org Objects/Campaign_Creation/Page_Ne
 
 WebUI.takeFullPageScreenshotAsCheckpoint('Campaign detals after save')
 
+WebUI.closeBrowser()
+
