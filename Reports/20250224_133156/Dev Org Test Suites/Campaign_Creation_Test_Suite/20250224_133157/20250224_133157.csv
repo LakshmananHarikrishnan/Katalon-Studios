@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Campaign_Creation_Test_Suite,Chrome 133.0.0.0,,,24-02-2025 13:32:05,24-02-2025 13:32:34,29.203s,FAILED
+,,,,,,,
+Test Cases/Dev Org/Salesforce Login,Chrome 133.0.0.0,,,24-02-2025 13:32:05,24-02-2025 13:32:14,9.095s,PASSED
+"openBrowser("""")",Chrome 133.0.0.0,,,24-02-2025 13:32:05,24-02-2025 13:32:09,4.564s,PASSED
+"navigateToUrl(""https://crmitsolutions-b1-dev-ed.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fcrmitsolutions-b1-dev-ed.lightning.force.com%252Flightning%252Fpage%252Fhome"")",Chrome 133.0.0.0,,,24-02-2025 13:32:09,24-02-2025 13:32:12,2.331s,PASSED
+"setText(findTestObject(""Object Repository/Salesforce Dev Org Objects/Login_Page/input_Username_username""), ""lakshmanan.harikrishnan@crmit.com"")",Chrome 133.0.0.0,,,24-02-2025 13:32:12,24-02-2025 13:32:13,1.078s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Salesforce Dev Org Objects/Login_Page/input_Password_pw""), ""Skh6gvxPwTxdAVzvbSrRkuoA5YFgwh0aTa9g/BZkypImOt8CuE/tig=="")",Chrome 133.0.0.0,,,24-02-2025 13:32:13,24-02-2025 13:32:13,0.370s,PASSED
+"click(findTestObject(""Object Repository/Salesforce Dev Org Objects/Login_Page/input_Password_Login""))",Chrome 133.0.0.0,,,24-02-2025 13:32:13,24-02-2025 13:32:14,0.597s,PASSED
+,,,,,,,
+Test Cases/Dev Org/Campaign Creation,Chrome 133.0.0.0,,,24-02-2025 13:32:14,24-02-2025 13:32:34,19.988s,FAILED
+delay(2),Chrome 133.0.0.0,,,24-02-2025 13:32:14,24-02-2025 13:32:16,2.026s,PASSED
+"click(findTestObject(""Salesforce Dev Org Objects/Campaign_Creation/Page_Home  Salesforce/App_Launcher""))",Chrome 133.0.0.0,,,24-02-2025 13:32:16,24-02-2025 13:32:34,17.873s,FAILED
