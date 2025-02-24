@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Campaign_Creation_Test_Suite,Chrome 133.0.0.0,,,19-02-2025 17:21:07,19-02-2025 17:21:38,30.689s,PASSED
+,,,,,,,
+Test Cases/Dev Org/Salesforce Login,Chrome 133.0.0.0,,,19-02-2025 17:21:07,19-02-2025 17:21:22,14.445s,PASSED
+"openBrowser("""")",Chrome 133.0.0.0,,,19-02-2025 17:21:08,19-02-2025 17:21:11,3.935s,PASSED
+"navigateToUrl(""https://crmitsolutions-b1-dev-ed.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fcrmitsolutions-b1-dev-ed.lightning.force.com%252Flightning%252Fpage%252Fhome"")",Chrome 133.0.0.0,,,19-02-2025 17:21:11,19-02-2025 17:21:15,4.006s,PASSED
+"setText(findTestObject(""Object Repository/Salesforce Dev Org Objects/Login_Page/input_Username_username""), ""lakshmanan.harikrishnan@crmit.com"")",Chrome 133.0.0.0,,,19-02-2025 17:21:15,19-02-2025 17:21:17,1.149s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Salesforce Dev Org Objects/Login_Page/input_Password_pw""), ""dODec5gxO+bcNM/P08QXrg=="")",Chrome 133.0.0.0,,,19-02-2025 17:21:17,19-02-2025 17:21:17,0.416s,PASSED
+"click(findTestObject(""Object Repository/Salesforce Dev Org Objects/Login_Page/input_Password_Login""))",Chrome 133.0.0.0,,,19-02-2025 17:21:17,19-02-2025 17:21:22,4.747s,PASSED
+,,,,,,,
+Test Cases/Dev Org/Campaign Creation,Chrome 133.0.0.0,,,19-02-2025 17:21:22,19-02-2025 17:21:38,16.085s,PASSED
+delay(2),Chrome 133.0.0.0,,,19-02-2025 17:21:22,19-02-2025 17:21:24,2.072s,PASSED
+"click(findTestObject(""Salesforce Dev Org Objects/Campaign_Creation/Page_Home  Salesforce/App_Launcher""))",Chrome 133.0.0.0,,,19-02-2025 17:21:24,19-02-2025 17:21:26,1.515s,PASSED
+"setText(findTestObject(""Salesforce Dev Org Objects/Campaign_Creation/Page_Home  Salesforce/Search_Text_Box""), ""Campaigns"")",Chrome 133.0.0.0,,,19-02-2025 17:21:26,19-02-2025 17:21:27,1.519s,PASSED
+"click(findTestObject(""Salesforce Dev Org Objects/Campaign_Creation/Page_Home  Salesforce/Campaigns""))",Chrome 133.0.0.0,,,19-02-2025 17:21:27,19-02-2025 17:21:28,0.912s,PASSED
+"click(findTestObject(""Object Repository/Salesforce Dev Org Objects/Campaign_Creation/Page_Recently Viewed  Campaigns  Salesforce/div_New""))",Chrome 133.0.0.0,,,19-02-2025 17:21:28,19-02-2025 17:21:29,1.160s,PASSED
+delay(2),Chrome 133.0.0.0,,,19-02-2025 17:21:29,19-02-2025 17:21:31,2.015s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Campaign Creation Page"")",Chrome 133.0.0.0,,,19-02-2025 17:21:31,19-02-2025 17:21:32,0.836s,PASSED
+"setText(findTestObject(""Salesforce Dev Org Objects/Campaign_Creation/Page_New Campaign  Salesforce/Campaign_Name""), ""Test"")",Chrome 133.0.0.0,,,19-02-2025 17:21:32,19-02-2025 17:21:33,0.629s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Campaign details before Save"")",Chrome 133.0.0.0,,,19-02-2025 17:21:33,19-02-2025 17:21:33,0.538s,PASSED
+"click(findTestObject(""Object Repository/Salesforce Dev Org Objects/Campaign_Creation/Page_New Campaign  Salesforce/Save""))",Chrome 133.0.0.0,,,19-02-2025 17:21:33,19-02-2025 17:21:34,0.335s,PASSED
+"click(findTestObject(""Salesforce Dev Org Objects/Campaign_Creation/Page_New Campaign  Salesforce/Campaign_Details_Tab""))",Chrome 133.0.0.0,,,19-02-2025 17:21:34,19-02-2025 17:21:36,2.061s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Campaign detals after save"")",Chrome 133.0.0.0,,,19-02-2025 17:21:36,19-02-2025 17:21:37,1.144s,PASSED
+closeBrowser(),Chrome 133.0.0.0,,,19-02-2025 17:21:37,19-02-2025 17:21:38,1.170s,PASSED

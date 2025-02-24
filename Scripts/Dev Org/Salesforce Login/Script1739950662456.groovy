@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://crmitsolutions-b1-dev-ed.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fcrmitsolutions-b1-dev-ed.lightning.force.com%252Flightning%252Fpage%252Fhome')
+WebUI.navigateToUrl('https://crmitsolutions-b3-dev-ed.develop.my.salesforce.com')
 
-WebUI.setText(findTestObject('Object Repository/Salesforce Dev Org Objects/Login_Page/input_Username_username'), 'lakshmanan.harikrishnan@crmit.com')
+WebUI.setText(findTestObject('Object Repository/Salesforce Dev Org Objects/Login_Page/input_Username_username'), 'harikrishnan@crmit.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Salesforce Dev Org Objects/Login_Page/input_Password_pw'), 'dODec5gxO+bcNM/P08QXrg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Salesforce Dev Org Objects/Login_Page/input_Password_pw'), '5PYKeXS5yY1RN+woiM/kLg==')
 
 WebUI.click(findTestObject('Object Repository/Salesforce Dev Org Objects/Login_Page/input_Password_Login'))
 
