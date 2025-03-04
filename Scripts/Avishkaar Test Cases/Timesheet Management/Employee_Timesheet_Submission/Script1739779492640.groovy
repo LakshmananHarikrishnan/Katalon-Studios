@@ -23,6 +23,10 @@ import org.apache.poi.ss.usermodel.CellType as CellType
 import java.io.File as File
 import java.io.FileInputStream as FileInputStream
 import java.io.FileOutputStream as FileOutputStream
+import java.awt.Robot as Robot
+import java.awt.event.KeyEvent as KeyEvent
+import java.awt.Toolkit as Toolkit
+import java.awt.datatransfer.StringSelection as StringSelection
 
 WebUI.delay(3)
 
@@ -38,6 +42,30 @@ WebUI.setText(findTestObject('Avishkaar Object Repository/Timesheet Management/D
 WebUI.click(findTestObject('Avishkaar Object Repository/Timesheet Management/Date_Range_Popup_Page/Ok_Button'))
 
 WebUI.click(findTestObject('Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/COE_Project'))
+
+WebUI.click(findTestObject('Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Upload_Proof_Button'))
+
+String filePath = 'C:\\Users\\lakshmanan.harikrish\\Desktop\\Aviskaar Home Page.png'
+
+StringSelection ss = new StringSelection(filePath)
+
+Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null)
+
+WebUI.delay(1)
+
+Robot robot = new Robot()
+
+robot.keyPress(KeyEvent.VK_CONTROL)
+
+robot.keyPress(KeyEvent.VK_V)
+
+robot.keyRelease(KeyEvent.VK_V)
+
+robot.keyRelease(KeyEvent.VK_CONTROL)
+
+robot.keyPress(KeyEvent.VK_ENTER)
+
+robot.keyRelease(KeyEvent.VK_ENTER)
 
 WebUI.setText(findTestObject('Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Date'), 
     Monday_Date)
@@ -59,6 +87,8 @@ WebUI.setText(findTestObject('Avishkaar Object Repository/Timesheet Management/T
     Monday_Description)
 
 WebUI.click(findTestObject('Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Add'))
+
+WebUI.delay(1)
 
 WebUI.clearText(findTestObject('Avishkaar Object Repository/Timesheet/Timesheet Submission/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Date'))
 
