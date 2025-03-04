@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Employee_Timesheet_Submission,Chrome 133.0.0.0,,,27-02-2025 14:17:34,27-02-2025 14:18:27,53.050s,FAILED
+,,,,,,,
+Test Cases/Avishkaar Test Cases/Login,Chrome 133.0.0.0,Community Portal Login,,27-02-2025 14:17:34,27-02-2025 14:17:47,12.623s,PASSED
+"openBrowser(""https://sftd1--testingcoe.sandbox.my.site.com/CRMITCommunity/s/"")",Chrome 133.0.0.0,,,27-02-2025 14:17:35,27-02-2025 14:17:45,10.417s,PASSED
+"setText(findTestObject(""Avishkaar Object Repository/Login_Page/Username""), Username)",Chrome 133.0.0.0,,,27-02-2025 14:17:45,27-02-2025 14:17:46,0.887s,PASSED
+"setText(findTestObject(""Avishkaar Object Repository/Login_Page/Password""), Password)",Chrome 133.0.0.0,,,27-02-2025 14:17:46,27-02-2025 14:17:47,0.619s,PASSED
+"click(findTestObject(""Avishkaar Object Repository/Login_Page/Login_Button""))",Chrome 133.0.0.0,,,27-02-2025 14:17:47,27-02-2025 14:17:47,0.366s,PASSED
+,,,,,,,
+Test Cases/Avishkaar Test Cases/Timesheet Management/Employee_Timesheet_Submission,Chrome 133.0.0.0,,,27-02-2025 14:17:47,27-02-2025 14:18:26,38.968s,FAILED
+delay(3),Chrome 133.0.0.0,,,27-02-2025 14:17:48,27-02-2025 14:17:51,3.078s,PASSED
+"click(findTestObject(""Avishkaar Object Repository/Timesheet Management/Home_Page/Timesheet""))",Chrome 133.0.0.0,,,27-02-2025 14:17:51,27-02-2025 14:18:02,11.290s,PASSED
+"click(findTestObject(""Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_List_View/New_Button""), STOP_ON_FAILURE)",Chrome 133.0.0.0,,,27-02-2025 14:18:02,27-02-2025 14:18:06,3.142s,PASSED
+delay(5),Chrome 133.0.0.0,,,27-02-2025 14:18:06,27-02-2025 14:18:11,5.007s,PASSED
+"setText(findTestObject(""Avishkaar Object Repository/Timesheet Management/Date_Range_Popup_Page/Date""), Date_Range)",Chrome 133.0.0.0,,,27-02-2025 14:18:11,27-02-2025 14:18:17,6.154s,PASSED
+"click(findTestObject(""Avishkaar Object Repository/Timesheet Management/Date_Range_Popup_Page/Ok_Button""))",Chrome 133.0.0.0,,,27-02-2025 14:18:17,27-02-2025 14:18:17,0.418s,PASSED
+"click(findTestObject(""Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/COE_Project""))",Chrome 133.0.0.0,,,27-02-2025 14:18:17,27-02-2025 14:18:19,1.351s,PASSED
+"setText(findTestObject(""Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Date""), Monday_Date)",Chrome 133.0.0.0,,,27-02-2025 14:18:19,27-02-2025 14:18:19,0.882s,PASSED
+"click(findTestObject(""Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Category""))",Chrome 133.0.0.0,,,27-02-2025 14:18:19,27-02-2025 14:18:20,0.375s,PASSED
+delay(3),Chrome 133.0.0.0,,,27-02-2025 14:18:20,27-02-2025 14:18:23,3.015s,PASSED
+"click(findTestObject(""Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Category_Picklist""))",Chrome 133.0.0.0,,,27-02-2025 14:18:23,27-02-2025 14:18:23,0.387s,PASSED
+"click(findTestObject(""Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Sub_Category""))",Chrome 133.0.0.0,,,27-02-2025 14:18:23,27-02-2025 14:18:24,0.590s,PASSED
+"click(findTestObject(""Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Sub_Category_Picklist""))",Chrome 133.0.0.0,,,27-02-2025 14:18:24,27-02-2025 14:18:24,0.409s,PASSED
+"setText(findTestObject(""Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Hours""), Hours)",Chrome 133.0.0.0,,,27-02-2025 14:18:24,27-02-2025 14:18:25,0.659s,PASSED
+"setText(findTestObject(""Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Description""), Monday_Description)",Chrome 133.0.0.0,,,27-02-2025 14:18:25,27-02-2025 14:18:26,0.698s,PASSED
+"click(findTestObject(""Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Add""))",Chrome 133.0.0.0,,,27-02-2025 14:18:26,27-02-2025 14:18:26,0.389s,PASSED
+"clearText(findTestObject(""Avishkaar Object Repository/Timesheet/Timesheet Submission/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Date""))",Chrome 133.0.0.0,,,27-02-2025 14:18:26,27-02-2025 14:18:26,0.291s,FAILED
+,,,,,,,
+Test Cases/Avishkaar Test Cases/Logout,Chrome 133.0.0.0,,,27-02-2025 14:18:26,27-02-2025 14:18:27,1.002s,PASSED
+"click(findTestObject(""Avishkaar Object Repository/Logout_Page/Logout_Icon""))",Chrome 133.0.0.0,,,27-02-2025 14:18:26,27-02-2025 14:18:27,0.326s,PASSED
+"click(findTestObject(""Avishkaar Object Repository/Logout_Page/Logout_Button""))",Chrome 133.0.0.0,,,27-02-2025 14:18:27,27-02-2025 14:18:27,0.583s,PASSED

@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Employee_Timesheet_Submission,Chrome 133.0.0.0,,,27-02-2025 13:52:10,27-02-2025 13:53:03,53.690s,FAILED
+,,,,,,,
+Test Cases/Avishkaar Test Cases/Login,Chrome 133.0.0.0,Community Portal Login,,27-02-2025 13:52:10,27-02-2025 13:52:23,13.333s,PASSED
+"openBrowser(""https://sftd1--testingcoe.sandbox.my.site.com/CRMITCommunity/s/"")",Chrome 133.0.0.0,,,27-02-2025 13:52:10,27-02-2025 13:52:21,11.301s,PASSED
+"setText(findTestObject(""Avishkaar Object Repository/Login_Page/Username""), Username)",Chrome 133.0.0.0,,,27-02-2025 13:52:21,27-02-2025 13:52:22,0.834s,PASSED
+"setText(findTestObject(""Avishkaar Object Repository/Login_Page/Password""), Password)",Chrome 133.0.0.0,,,27-02-2025 13:52:22,27-02-2025 13:52:23,0.644s,PASSED
+"click(findTestObject(""Avishkaar Object Repository/Login_Page/Login_Button""))",Chrome 133.0.0.0,,,27-02-2025 13:52:23,27-02-2025 13:52:23,0.346s,PASSED
+,,,,,,,
+Test Cases/Avishkaar Test Cases/Timesheet Management/Employee_Timesheet_Submission,Chrome 133.0.0.0,,,27-02-2025 13:52:23,27-02-2025 13:53:02,38.897s,FAILED
+delay(3),Chrome 133.0.0.0,,,27-02-2025 13:52:24,27-02-2025 13:52:27,3.060s,PASSED
+"click(findTestObject(""Avishkaar Object Repository/Timesheet Management/Home_Page/Timesheet""))",Chrome 133.0.0.0,,,27-02-2025 13:52:27,27-02-2025 13:52:31,3.695s,PASSED
+"click(findTestObject(""Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_List_View/New_Button""), STOP_ON_FAILURE)",Chrome 133.0.0.0,,,27-02-2025 13:52:31,27-02-2025 13:53:02,31.231s,FAILED
+,,,,,,,
+Test Cases/Avishkaar Test Cases/Logout,Chrome 133.0.0.0,,,27-02-2025 13:53:02,27-02-2025 13:53:03,1.024s,PASSED
+"click(findTestObject(""Avishkaar Object Repository/Logout_Page/Logout_Icon""))",Chrome 133.0.0.0,,,27-02-2025 13:53:02,27-02-2025 13:53:03,0.334s,PASSED
+"click(findTestObject(""Avishkaar Object Repository/Logout_Page/Logout_Button""))",Chrome 133.0.0.0,,,27-02-2025 13:53:03,27-02-2025 13:53:03,0.581s,PASSED

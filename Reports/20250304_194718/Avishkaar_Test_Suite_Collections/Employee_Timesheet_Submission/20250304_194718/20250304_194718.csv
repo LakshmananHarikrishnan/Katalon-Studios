@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Employee_Timesheet_Submission,Chrome 133.0.0.0,,,04-03-2025 19:47:25,04-03-2025 19:48:07,41.866s,ERROR
+,,,,,,,
+Test Cases/Avishkaar Test Cases/Login,Chrome 133.0.0.0,Community Portal Login,,04-03-2025 19:47:25,04-03-2025 19:47:50,24.557s,PASSED
+"openBrowser(""https://sftd1--testingcoe.sandbox.my.site.com/CRMITCommunity/s/"")",Chrome 133.0.0.0,,,04-03-2025 19:47:26,04-03-2025 19:47:48,22.525s,PASSED
+"setText(findTestObject(""Avishkaar Object Repository/Login_Page/Username""), Username)",Chrome 133.0.0.0,,,04-03-2025 19:47:48,04-03-2025 19:47:49,0.796s,PASSED
+"setText(findTestObject(""Avishkaar Object Repository/Login_Page/Password""), Password)",Chrome 133.0.0.0,,,04-03-2025 19:47:49,04-03-2025 19:47:50,0.628s,PASSED
+"click(findTestObject(""Avishkaar Object Repository/Login_Page/Login_Button""))",Chrome 133.0.0.0,,,04-03-2025 19:47:50,04-03-2025 19:47:50,0.379s,PASSED
+,,,,,,,
+Test Cases/Avishkaar Test Cases/Timesheet Management/Employee_Timesheet_Submission,Chrome 133.0.0.0,,,04-03-2025 19:47:50,04-03-2025 19:47:51,1.147s,ERROR
+,,,,,,,
+Test Cases/Avishkaar Test Cases/Logout,Chrome 133.0.0.0,,,04-03-2025 19:47:51,04-03-2025 19:48:07,15.729s,PASSED
+"click(findTestObject(""Avishkaar Object Repository/Logout_Page/Logout_Icon""))",Chrome 133.0.0.0,,,04-03-2025 19:47:52,04-03-2025 19:48:06,14.053s,PASSED
+"click(findTestObject(""Avishkaar Object Repository/Logout_Page/Logout_Button""))",Chrome 133.0.0.0,,,04-03-2025 19:48:06,04-03-2025 19:48:07,1.511s,PASSED
