@@ -88,7 +88,7 @@ WebUI.setText(findTestObject('Avishkaar Object Repository/Timesheet Management/T
 
 WebUI.click(findTestObject('Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Add'))
 
-WebUI.delay(10)
+WebUI.delay(1)
 
 WebUI.clearText(findTestObject('Avishkaar Object Repository/Timesheet/Timesheet Submission/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Date'))
 
