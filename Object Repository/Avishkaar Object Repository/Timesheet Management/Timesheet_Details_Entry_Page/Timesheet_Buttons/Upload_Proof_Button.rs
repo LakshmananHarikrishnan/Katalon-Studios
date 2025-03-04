@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Tuesday_Date</name>
+   <name>Upload_Proof_Button</name>
    <tag></tag>
-   <elementGuidId>67a70862-1d28-4675-901f-df5a8a7642b2</elementGuidId>
+   <elementGuidId>b4be3a21-5ae4-411c-95f2-6d07c29774c1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='input-86']</value>
+         <value>//span[@class=&quot;slds-file-selector__button slds-button slds-button_neutral&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
