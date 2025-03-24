@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Employee_Login_Test_Suite,Chrome 133.0.0.0,,,18-02-2025 10:48:35,18-02-2025 10:48:57,21.949s,PASSED
-,,,,,,,
-Test Cases/Avishkaar Test Cases/Login,Chrome 133.0.0.0,Community Portal Login,,18-02-2025 10:48:35,18-02-2025 10:48:57,21.787s,PASSED
-"openBrowser(""https://sftd1--testingcoe.sandbox.my.site.com/CRMITCommunity/s/"")",Chrome 133.0.0.0,,,18-02-2025 10:48:35,18-02-2025 10:48:55,19.666s,PASSED
-"setText(findTestObject(""Avishkaar Object Repository/Login_Page/Username""), Username)",Chrome 133.0.0.0,,,18-02-2025 10:48:55,18-02-2025 10:48:56,0.887s,PASSED
-"setText(findTestObject(""Avishkaar Object Repository/Login_Page/Password""), Password)",Chrome 133.0.0.0,,,18-02-2025 10:48:56,18-02-2025 10:48:56,0.651s,PASSED
-"click(findTestObject(""Avishkaar Object Repository/Login_Page/Login_Button""))",Chrome 133.0.0.0,,,18-02-2025 10:48:56,18-02-2025 10:48:57,0.370s,PASSED

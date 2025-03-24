@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Manager_Timesheet_Rejection</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>58af5f12-c933-4978-8f35-d772a5bf3d46</testCaseGuid>
+</TestCaseEntity>
