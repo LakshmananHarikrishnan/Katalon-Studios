@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tr[@data-daystr=&quot;Thu&quot;]/td[3]//button[@name=&quot;Sub-Category&quot;]</value>
+         <value>//button[@aria-controls=&quot;dropdown-element-41&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

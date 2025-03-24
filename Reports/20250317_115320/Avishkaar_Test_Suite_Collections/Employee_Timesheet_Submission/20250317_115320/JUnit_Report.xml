@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Employee_Timesheet_Submission" time="105.724" tests="3" failures="0" errors="0">
+   <testsuite name="Employee_Timesheet_Submission" tests="3" failures="0" errors="0" time="105.724" skipped="0" timestamp="17-03-2025T11:53:22" hostname="lakshmanan.harikrish - SLTB233" id="Test Suites/Avishkaar_Test_Suite_Collections/Employee_Timesheet_Submission">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\Automation\\Katalon Studios\\Katalon-Studios\\Reports\\20250317_115320\\Avishkaar_Test_Suite_Collections\\Employee_Timesheet_Submission\\20250317_115320"/>
+         <property name="logFiles" value="D:\\Automation\\Katalon Studios\\Katalon-Studios\\Reports\\20250317_115320\\Avishkaar_Test_Suite_Collections\\Employee_Timesheet_Submission\\20250317_115320\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-Employee_Home_Page.png, keyes\keyes-Uploaded_file.png, keyes\keyes-Timesheet_Details_Updated.png, keyes\keyes-Timesheet_Submitted.png"/>
+         <property name="hostName" value="lakshmanan.harikrish - SLTB233"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 133.0.6943.143"/>
+         <property name="hostAddress" value="192.168.101.33"/>
+         <property name="sessionId" value="06a1cb3eacc7fab2440ab8243724dc05"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Avishkaar Test Cases/Login" time="11.802" classname="Test Cases/Avishkaar Test Cases/Login" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Username":"chaithra.kn@crmit.com.testingcoe","Password":"Password$2025"}]]></property>
+         </properties>
+         <system-out><![CDATA[17-03-2025T11:53:22 - [TEST_CASE][PASSED] - Test Cases/Avishkaar Test Cases/Login: Test Cases/Avishkaar Test Cases/Login
+
+17-03-2025T11:53:23 - [TEST_STEP][PASSED] - openBrowser("https://sftd1--testingcoe.sandbox.my.site.com/CRMITCommunity/s/"): Browser is opened with url: 'https://sftd1--testingcoe.sandbox.my.site.com/CRMITCommunity/s/'
+
+17-03-2025T11:53:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-03-2025T11:53:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-03-2025T11:53:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sftd1--testingcoe.sandbox.my.site.com/CRMITCommunity/s/'
+
+17-03-2025T11:53:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+17-03-2025T11:53:31 - [MESSAGE][PASSED] - Current window maximized
+
+17-03-2025T11:53:31 - [TEST_STEP][PASSED] - setText(findTestObject("Avishkaar Object Repository/Login_Page/Username"), Username): Text 'chaithra.kn@crmit.com.testingcoe' is set on object 'Object Repository/Avishkaar Object Repository/Login_Page/Username'
+
+17-03-2025T11:53:33 - [MESSAGE][PASSED] - Text 'chaithra.kn@crmit.com.testingcoe' is set on object 'Object Repository/Avishkaar Object Repository/Login_Page/Username'
+
+17-03-2025T11:53:33 - [TEST_STEP][PASSED] - setText(findTestObject("Avishkaar Object Repository/Login_Page/Password"), Password): Text 'Password$2025' is set on object 'Object Repository/Avishkaar Object Repository/Login_Page/Password'
+
+17-03-2025T11:53:34 - [MESSAGE][PASSED] - Text 'Password$2025' is set on object 'Object Repository/Avishkaar Object Repository/Login_Page/Password'
+
+17-03-2025T11:53:34 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Login_Page/Login_Button")): Object: 'Object Repository/Avishkaar Object Repository/Login_Page/Login_Button' is clicked on
+
+17-03-2025T11:53:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Login_Page/Login_Button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Avishkaar Test Cases/Timesheet Management/Employee_Timesheet_Submission" time="89.535" classname="Test Cases/Avishkaar Test Cases/Timesheet Management/Employee_Timesheet_Submission" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Thursday_Descri...":"COE","Hours":"8","Friday_Descript...":"Demo","Date_Range":"Mar 10, 2025","Friday_Date":"Mar 14, 2025","Tuesday_Descrip...":"Studios","Thursday_Date":"Mar 13, 2025","Monday_Date":"Mar 10, 2025","Monday_Descript...":"Katalon","Tuesday_Date":"Mar 11, 2025","Wednesday_Date":"Mar 12, 2025","Wednesday_Descr...":"Automation"}]]></property>
+         </properties>
+         <system-out><![CDATA[17-03-2025T11:53:34 - [TEST_CASE][PASSED] - Test Cases/Avishkaar Test Cases/Timesheet Management/Employee_Timesheet_Submission: Test Cases/Avishkaar Test Cases/Timesheet Management/Employee_Timesheet_Submission
+
+17-03-2025T11:53:35 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Employee_Home_Page"): Taking screenshot successfully
+
+17-03-2025T11:53:47 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-03-2025T11:53:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Employee_Home_Page.png]]
+
+17-03-2025T11:53:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+17-03-2025T11:53:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+17-03-2025T11:53:50 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Home_Page/Timesheet")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Home_Page/Timesheet' is clicked on
+
+17-03-2025T11:53:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Home_Page/Timesheet' is clicked on
+
+17-03-2025T11:53:51 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_List_View/New_Button"), STOP_ON_FAILURE): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_List_View/New_Button' is clicked on
+
+17-03-2025T11:53:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_List_View/New_Button' is clicked on
+
+17-03-2025T11:53:55 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+17-03-2025T11:54:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+17-03-2025T11:54:00 - [TEST_STEP][PASSED] - setText(findTestObject("Avishkaar Object Repository/Timesheet Management/Date_Range_Popup_Page/Date"), Date_Range): Text 'Mar 10, 2025' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Date_Range_Popup_Page/Date'
+
+17-03-2025T11:54:04 - [MESSAGE][PASSED] - Text 'Mar 10, 2025' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Date_Range_Popup_Page/Date'
+
+17-03-2025T11:54:04 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Date_Range_Popup_Page/Ok_Button")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Date_Range_Popup_Page/Ok_Button' is clicked on
+
+17-03-2025T11:54:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Date_Range_Popup_Page/Ok_Button' is clicked on
+
+17-03-2025T11:54:04 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Testing_project_indai")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Testing_project_indai' is clicked on
+
+17-03-2025T11:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Testing_project_indai' is clicked on
+
+17-03-2025T11:54:05 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Upload_Proof_Button")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Upload_Proof_Button' is clicked on
+
+17-03-2025T11:54:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Upload_Proof_Button' is clicked on
+
+17-03-2025T11:54:06 - [TEST_STEP][PASSED] - filePath = "C:\Users\lakshmanan.harikrish\Desktop\Aviskaar Home Page.png": null
+
+17-03-2025T11:54:06 - [TEST_STEP][PASSED] - ss = new java.awt.datatransfer.StringSelection(filePath): null
+
+17-03-2025T11:54:06 - [TEST_STEP][PASSED] - getSystemClipboard().setContents(ss, null): null
+
+17-03-2025T11:54:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+17-03-2025T11:54:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+17-03-2025T11:54:08 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null
+
+17-03-2025T11:54:08 - [TEST_STEP][PASSED] - robot.keyPress(VK_CONTROL): null
+
+17-03-2025T11:54:08 - [TEST_STEP][PASSED] - robot.keyPress(VK_V): null
+
+17-03-2025T11:54:08 - [TEST_STEP][PASSED] - robot.keyRelease(VK_V): null
+
+17-03-2025T11:54:08 - [TEST_STEP][PASSED] - robot.keyRelease(VK_CONTROL): null
+
+17-03-2025T11:54:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+17-03-2025T11:54:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+17-03-2025T11:54:10 - [TEST_STEP][PASSED] - robot.keyPress(VK_ENTER): null
+
+17-03-2025T11:54:10 - [TEST_STEP][PASSED] - robot.keyRelease(VK_ENTER): null
+
+17-03-2025T11:54:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+17-03-2025T11:54:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+17-03-2025T11:54:12 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Uploaded_file"): Taking screenshot successfully
+
+17-03-2025T11:54:13 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-03-2025T11:54:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Uploaded_file.png]]
+
+17-03-2025T11:54:13 - [TEST_STEP][PASSED] - setText(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Date"), Monday_Date): Text 'Mar 10, 2025' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Date'
+
+17-03-2025T11:54:13 - [MESSAGE][PASSED] - Text 'Mar 10, 2025' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Date'
+
+17-03-2025T11:54:13 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Category")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Category' is clicked on
+
+17-03-2025T11:54:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Category' is clicked on
+
+17-03-2025T11:54:14 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Category_Picklist")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Category_Picklist' is clicked on
+
+17-03-2025T11:54:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Category_Picklist' is clicked on
+
+17-03-2025T11:54:14 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Sub_Category")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Sub_Category' is clicked on
+
+17-03-2025T11:54:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Sub_Category' is clicked on
+
+17-03-2025T11:54:15 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Sub_Category_Picklist")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Sub_Category_Picklist' is clicked on
+
+17-03-2025T11:54:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Sub_Category_Picklist' is clicked on
+
+17-03-2025T11:54:15 - [TEST_STEP][PASSED] - setText(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Hours"), Hours): Text '8' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Hours'
+
+17-03-2025T11:54:16 - [MESSAGE][PASSED] - Text '8' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Hours'
+
+17-03-2025T11:54:16 - [TEST_STEP][PASSED] - setText(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Description"), Monday_Description): Text 'Katalon' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Description'
+
+17-03-2025T11:54:17 - [MESSAGE][PASSED] - Text 'Katalon' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Description'
+
+17-03-2025T11:54:17 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Add")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Add' is clicked on
+
+17-03-2025T11:54:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Add' is clicked on
+
+17-03-2025T11:54:17 - [TEST_STEP][PASSED] - clearText(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Date")): Text of object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Date' is cleared
+
+17-03-2025T11:54:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Date' is cleared
+
+17-03-2025T11:54:18 - [TEST_STEP][PASSED] - setText(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Date"), Tuesday_Date): Text 'Mar 11, 2025' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Date'
+
+17-03-2025T11:54:19 - [MESSAGE][PASSED] - Text 'Mar 11, 2025' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Date'
+
+17-03-2025T11:54:19 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Category")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Category' is clicked on
+
+17-03-2025T11:54:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Category' is clicked on
+
+17-03-2025T11:54:19 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Category")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Category' is clicked on
+
+17-03-2025T11:54:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Category' is clicked on
+
+17-03-2025T11:54:20 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Category_Picklist")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Category_Picklist' is clicked on
+
+17-03-2025T11:54:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Category_Picklist' is clicked on
+
+17-03-2025T11:54:20 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Sub_Category")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Sub_Category' is clicked on
+
+17-03-2025T11:54:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Sub_Category' is clicked on
+
+17-03-2025T11:54:21 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Sub_Category_Picklist")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Sub_Category_Picklist' is clicked on
+
+17-03-2025T11:54:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Sub_Category_Picklist' is clicked on
+
+17-03-2025T11:54:21 - [TEST_STEP][PASSED] - setText(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Hours"), Hours): Text '8' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Hours'
+
+17-03-2025T11:54:22 - [MESSAGE][PASSED] - Text '8' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Hours'
+
+17-03-2025T11:54:22 - [TEST_STEP][PASSED] - setText(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Description"), Tuesday_Description): Text 'Studios' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Description'
+
+17-03-2025T11:54:23 - [MESSAGE][PASSED] - Text 'Studios' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Description'
+
+17-03-2025T11:54:23 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Add")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Add' is clicked on
+
+17-03-2025T11:54:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Add' is clicked on
+
+17-03-2025T11:54:23 - [TEST_STEP][PASSED] - clearText(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Date")): Text of object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Date' is cleared
+
+17-03-2025T11:54:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Date' is cleared
+
+17-03-2025T11:54:23 - [TEST_STEP][PASSED] - setText(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Date"), Wednesday_Date): Text 'Mar 12, 2025' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Date'
+
+17-03-2025T11:54:24 - [MESSAGE][PASSED] - Text 'Mar 12, 2025' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Date'
+
+17-03-2025T11:54:24 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Category")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Category' is clicked on
+
+17-03-2025T11:54:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Category' is clicked on
+
+17-03-2025T11:54:25 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Category")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Category' is clicked on
+
+17-03-2025T11:54:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Category' is clicked on
+
+17-03-2025T11:54:25 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Category_Picklist")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Category_Picklist' is clicked on
+
+17-03-2025T11:54:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Category_Picklist' is clicked on
+
+17-03-2025T11:54:26 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Sub_Category")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Sub_Category' is clicked on
+
+17-03-2025T11:54:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Sub_Category' is clicked on
+
+17-03-2025T11:54:26 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Sub_Category_Picklist")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Sub_Category_Picklist' is clicked on
+
+17-03-2025T11:54:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Sub_Category_Picklist' is clicked on
+
+17-03-2025T11:54:27 - [TEST_STEP][PASSED] - setText(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Hours"), Hours): Text '8' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Hours'
+
+17-03-2025T11:54:28 - [MESSAGE][PASSED] - Text '8' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Hours'
+
+17-03-2025T11:54:28 - [TEST_STEP][PASSED] - setText(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Description"), Wednesday_Description): Text 'Automation' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Description'
+
+17-03-2025T11:54:28 - [MESSAGE][PASSED] - Text 'Automation' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Description'
+
+17-03-2025T11:54:28 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Others_Project")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Others_Project' is clicked on
+
+17-03-2025T11:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Others_Project' is clicked on
+
+17-03-2025T11:54:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+17-03-2025T11:54:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+17-03-2025T11:54:31 - [TEST_STEP][PASSED] - clearText(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Date")): Text of object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Date' is cleared
+
+17-03-2025T11:54:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Date' is cleared
+
+17-03-2025T11:54:31 - [TEST_STEP][PASSED] - setText(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Date"), Thursday_Date): Text 'Mar 13, 2025' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Date'
+
+17-03-2025T11:54:31 - [MESSAGE][PASSED] - Text 'Mar 13, 2025' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Date'
+
+17-03-2025T11:54:31 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Category")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Category' is clicked on
+
+17-03-2025T11:54:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Category' is clicked on
+
+17-03-2025T11:54:32 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Category")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Category' is clicked on
+
+17-03-2025T11:54:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Category' is clicked on
+
+17-03-2025T11:54:32 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Category_Picklist")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Category_Picklist' is clicked on
+
+17-03-2025T11:54:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Category_Picklist' is clicked on
+
+17-03-2025T11:54:33 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Sub_Category")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Sub_Category' is clicked on
+
+17-03-2025T11:54:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Sub_Category' is clicked on
+
+17-03-2025T11:54:33 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Sub_Category_Picklist")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Sub_Category_Picklist' is clicked on
+
+17-03-2025T11:54:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Sub_Category_Picklist' is clicked on
+
+17-03-2025T11:54:34 - [TEST_STEP][PASSED] - setText(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Hours"), Hours): Text '8' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Hours'
+
+17-03-2025T11:54:35 - [MESSAGE][PASSED] - Text '8' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Hours'
+
+17-03-2025T11:54:35 - [TEST_STEP][PASSED] - setText(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Description"), Thursday_Description): Text 'COE' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Description'
+
+17-03-2025T11:54:35 - [MESSAGE][PASSED] - Text 'COE' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Description'
+
+17-03-2025T11:54:35 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Add")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Add' is clicked on
+
+17-03-2025T11:54:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Add' is clicked on
+
+17-03-2025T11:54:35 - [TEST_STEP][PASSED] - clearText(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Friday/Friday_Date")): Text of object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Friday/Friday_Date' is cleared
+
+17-03-2025T11:54:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Friday/Friday_Date' is cleared
+
+17-03-2025T11:54:36 - [TEST_STEP][PASSED] - setText(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Friday/Friday_Date"), Friday_Date): Text 'Mar 14, 2025' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Friday/Friday_Date'
+
+17-03-2025T11:54:37 - [MESSAGE][PASSED] - Text 'Mar 14, 2025' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Friday/Friday_Date'
+
+17-03-2025T11:54:37 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Category")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Category' is clicked on
+
+17-03-2025T11:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Category' is clicked on
+
+17-03-2025T11:54:37 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Friday/Friday_Category")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Friday/Friday_Category' is clicked on
+
+17-03-2025T11:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Friday/Friday_Category' is clicked on
+
+17-03-2025T11:54:38 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Friday/Friday_Category_Picklist")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Friday/Friday_Category_Picklist' is clicked on
+
+17-03-2025T11:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Friday/Friday_Category_Picklist' is clicked on
+
+17-03-2025T11:54:38 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Friday/Friday_Sub_Category")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Friday/Friday_Sub_Category' is clicked on
+
+17-03-2025T11:54:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Friday/Friday_Sub_Category' is clicked on
+
+17-03-2025T11:54:39 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Friday/Friday_Sub_Category_Picklist")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Friday/Friday_Sub_Category_Picklist' is clicked on
+
+17-03-2025T11:54:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Friday/Friday_Sub_Category_Picklist' is clicked on
+
+17-03-2025T11:54:39 - [TEST_STEP][PASSED] - setText(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Friday/Friday_Hours"), Hours): Text '8' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Friday/Friday_Hours'
+
+17-03-2025T11:54:40 - [MESSAGE][PASSED] - Text '8' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Friday/Friday_Hours'
+
+17-03-2025T11:54:40 - [TEST_STEP][PASSED] - setText(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Friday/Friday_Description"), Friday_Description): Text 'Demo' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Friday/Friday_Description'
+
+17-03-2025T11:54:41 - [MESSAGE][PASSED] - Text 'Demo' is set on object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Friday/Friday_Description'
+
+17-03-2025T11:54:41 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Timesheet_Details_Updated"): Taking screenshot successfully
+
+17-03-2025T11:54:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-03-2025T11:54:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Timesheet_Details_Updated.png]]
+
+17-03-2025T11:54:41 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Submit_Button")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Submit_Button' is clicked on
+
+17-03-2025T11:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Submit_Button' is clicked on
+
+17-03-2025T11:54:42 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Proceed")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Proceed' is clicked on
+
+17-03-2025T11:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Proceed' is clicked on
+
+17-03-2025T11:54:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+17-03-2025T11:54:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+17-03-2025T11:54:44 - [TEST_STEP][PASSED] - out.println("Timesheet is submitted Successfully."): null
+
+17-03-2025T11:54:44 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Home_Page/Timesheet")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Home_Page/Timesheet' is clicked on
+
+17-03-2025T11:54:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Home_Page/Timesheet' is clicked on
+
+17-03-2025T11:54:57 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_List_View/List_View_Drop_Down_Button")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_List_View/List_View_Drop_Down_Button' is clicked on
+
+17-03-2025T11:54:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_List_View/List_View_Drop_Down_Button' is clicked on
+
+17-03-2025T11:54:58 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_List_View/My_Timesheet_List_View")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_List_View/My_Timesheet_List_View' is clicked on
+
+17-03-2025T11:55:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_List_View/My_Timesheet_List_View' is clicked on
+
+17-03-2025T11:55:01 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_List_View/Timesheet_Link")): Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_List_View/Timesheet_Link' is clicked on
+
+17-03-2025T11:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_List_View/Timesheet_Link' is clicked on
+
+17-03-2025T11:55:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_List_View/Timesheet_Status"), "Submitted"): Actual text and expected text of test object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_List_View/Timesheet_Status' are matched.
+
+17-03-2025T11:55:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_List_View/Timesheet_Status' are matched.
+
+17-03-2025T11:55:03 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Timesheet_Submitted"): Taking screenshot successfully
+
+17-03-2025T11:55:04 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-03-2025T11:55:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Timesheet_Submitted.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Avishkaar Test Cases/Logout" time="4.07" classname="Test Cases/Avishkaar Test Cases/Logout" status="PASSED">
+         <system-out><![CDATA[17-03-2025T11:55:04 - [TEST_CASE][PASSED] - Test Cases/Avishkaar Test Cases/Logout: Test Cases/Avishkaar Test Cases/Logout
+
+17-03-2025T11:55:04 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Logout_Page/Logout_Icon")): Object: 'Object Repository/Avishkaar Object Repository/Logout_Page/Logout_Icon' is clicked on
+
+17-03-2025T11:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Logout_Page/Logout_Icon' is clicked on
+
+17-03-2025T11:55:07 - [TEST_STEP][PASSED] - click(findTestObject("Avishkaar Object Repository/Logout_Page/Logout_Button")): Object: 'Object Repository/Avishkaar Object Repository/Logout_Page/Logout_Button' is clicked on
+
+17-03-2025T11:55:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Avishkaar Object Repository/Logout_Page/Logout_Button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-03-2025T11:53:22 - [TEST_SUITE][PASSED] - Employee_Timesheet_Submission: Test Cases/Avishkaar Test Cases/Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tr[@data-daystr=&quot;Tue&quot;]/td[5]//textarea[@name=&quot;Description&quot;]</value>
+         <value>//lightning-accordion-section[2]//tr[@data-daystr=&quot;Tue&quot;]//textarea[@name=&quot;Description&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

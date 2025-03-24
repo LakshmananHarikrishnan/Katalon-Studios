@@ -28,6 +28,8 @@ import java.awt.event.KeyEvent as KeyEvent
 import java.awt.Toolkit as Toolkit
 import java.awt.datatransfer.StringSelection as StringSelection
 
+WebUI.takeFullPageScreenshotAsCheckpoint('Employee_Home_Page')
+
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Avishkaar Object Repository/Timesheet Management/Home_Page/Timesheet'))
@@ -41,7 +43,7 @@ WebUI.setText(findTestObject('Avishkaar Object Repository/Timesheet Management/D
 
 WebUI.click(findTestObject('Avishkaar Object Repository/Timesheet Management/Date_Range_Popup_Page/Ok_Button'))
 
-WebUI.click(findTestObject('Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/COE_Project'))
+WebUI.click(findTestObject('Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Testing_project_indai'))
 
 WebUI.click(findTestObject('Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Upload_Proof_Button'))
 
@@ -51,7 +53,7 @@ StringSelection ss = new StringSelection(filePath)
 
 Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null)
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 Robot robot = new Robot()
 
@@ -63,16 +65,20 @@ robot.keyRelease(KeyEvent.VK_V)
 
 robot.keyRelease(KeyEvent.VK_CONTROL)
 
+WebUI.delay(2)
+
 robot.keyPress(KeyEvent.VK_ENTER)
 
 robot.keyRelease(KeyEvent.VK_ENTER)
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('Uploaded_file')
 
 WebUI.setText(findTestObject('Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Date'), 
     Monday_Date)
 
 WebUI.click(findTestObject('Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Category'))
-
-WebUI.delay(3)
 
 WebUI.click(findTestObject('Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Category_Picklist'))
 
@@ -88,9 +94,7 @@ WebUI.setText(findTestObject('Avishkaar Object Repository/Timesheet Management/T
 
 WebUI.click(findTestObject('Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Monday/Monday_Add'))
 
-WebUI.delay(1)
-
-WebUI.clearText(findTestObject('Avishkaar Object Repository/Timesheet/Timesheet Submission/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Date'))
+WebUI.clearText(findTestObject('Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Date'))
 
 WebUI.setText(findTestObject('Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Tuesday/Tuesday_Date'), 
     Tuesday_Date)
@@ -134,7 +138,9 @@ WebUI.setText(findTestObject('Avishkaar Object Repository/Timesheet Management/T
 WebUI.setText(findTestObject('Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Description'), 
     Wednesday_Description)
 
-WebUI.click(findTestObject('Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Wednesday/Wednesday_Add'))
+WebUI.click(findTestObject('Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Others_Project'))
+
+WebUI.delay(2)
 
 WebUI.clearText(findTestObject('Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Thursday/Thursday_Date'))
 
@@ -180,6 +186,8 @@ WebUI.setText(findTestObject('Avishkaar Object Repository/Timesheet Management/T
 WebUI.setText(findTestObject('Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Friday/Friday_Description'), 
     Friday_Description)
 
+WebUI.takeFullPageScreenshotAsCheckpoint('Timesheet_Details_Updated')
+
 WebUI.click(findTestObject('Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Submit_Button'))
 
 WebUI.click(findTestObject('Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_Buttons/Proceed'))
@@ -200,38 +208,5 @@ WebUI.click(findTestObject('Avishkaar Object Repository/Timesheet Management/Tim
 WebUI.verifyElementText(findTestObject('Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_List_View/Timesheet_Status'), 
     'Submitted')
 
-// Fetch Timesheet ID
-String Timesheet_ID = WebUI.getText(findTestObject('Avishkaar Object Repository/Timesheet Management/Timesheet_Details_Entry_Page/Timesheet_List_View/Timesheet_Id_Details_Page'))
-
-// Define the new Excel file path
-String excelFilePath = 'D:/Automation/Katalon Studios/Katalon Output File.xlsx'
-
-File excelFile = new File(excelFilePath)
-
-// Create a new workbook and a sheet
-println('Creating a new Excel file.')
-
-XSSFWorkbook workbook = new XSSFWorkbook()
-
-XSSFSheet sheet = workbook.createSheet('Sheet1' // Create a sheet named "Sheet1"
-    )
-
-// Add sample data to the sheet
-println('Adding data to the new sheet.')
-
-sheet.createRow(0).createCell(0, CellType.STRING).setCellValue('Timesheet ID')
-
-sheet.getRow(0).createCell(1, CellType.STRING).setCellValue(Timesheet_ID)
-
-// Write the workbook to the file system
-FileOutputStream outputFile = new FileOutputStream(excelFile)
-
-workbook.write(outputFile)
-
-// Close resources
-outputFile.close()
-
-workbook.close()
-
-println('New Excel file created successfully at: ' + excelFile.getAbsolutePath())
+WebUI.takeFullPageScreenshotAsCheckpoint('Timesheet_Submitted')
 

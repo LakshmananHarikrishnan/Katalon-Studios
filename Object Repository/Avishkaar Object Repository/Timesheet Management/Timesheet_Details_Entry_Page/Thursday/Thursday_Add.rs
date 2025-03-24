@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tr[4]/td[6]//button[@title=&quot;Add new activity&quot;]</value>
+         <value>//tr[@data-daystr=&quot;Thu&quot;]//button[@title=&quot;Add new activity&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Employee_Timesheet_Submission,,,,19-03-2025 14:18:23,19-03-2025 14:18:33,9.517s,FAILED
+,,,,,,,
+Test Cases/Avishkaar Test Cases/Login,,Community Portal Login,,19-03-2025 14:18:23,19-03-2025 14:18:32,8.515s,FAILED
+"DATA BINDING - {""Username"":""chaithra.kn@crmit.com.testingcoe"",""Password"":""Password$2025""}",,,,,,,
+"openBrowser(""https://sftd1--testingcoe.sandbox.my.site.com/CRMITCommunity/s/"")",,,,19-03-2025 14:18:24,19-03-2025 14:18:32,8.303s,FAILED
+,,,,,,,
+Test Cases/Avishkaar Test Cases/Timesheet Management/Employee_Timesheet_Submission,,,,19-03-2025 14:18:32,19-03-2025 14:18:32,0.479s,FAILED
+"DATA BINDING - {""Thursday_Descri..."":""COE"",""Hours"":""8"",""Friday_Descript..."":""Demo"",""Date_Range"":""Mar 10, 2025"",""Friday_Date"":""Mar 14, 2025"",""Tuesday_Descrip..."":""Studios"",""Thursday_Date"":""Mar 13, 2025"",""Monday_Date"":""Mar 10, 2025"",""Monday_Descript..."":""Katalon"",""Tuesday_Date"":""Mar 11, 2025"",""Wednesday_Date"":""Mar 12, 2025"",""Wednesday_Descr..."":""Automation""}",,,,,,,
+"takeFullPageScreenshotAsCheckpoint(""Employee_Home_Page"")",,,,19-03-2025 14:18:32,19-03-2025 14:18:32,0.020s,FAILED
+,,,,,,,
+Test Cases/Avishkaar Test Cases/Logout,,,,19-03-2025 14:18:32,19-03-2025 14:18:33,0.152s,FAILED
+"click(findTestObject(""Avishkaar Object Repository/Logout_Page/Logout_Icon""))",,,,19-03-2025 14:18:33,19-03-2025 14:18:33,0.094s,FAILED

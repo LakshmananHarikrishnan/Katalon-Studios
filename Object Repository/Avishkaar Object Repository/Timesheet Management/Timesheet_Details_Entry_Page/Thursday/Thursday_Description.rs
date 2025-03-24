@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tr[@data-daystr=&quot;Thu&quot;]/td[5]//textarea[@name=&quot;Description&quot;]</value>
+         <value>//tr[@data-daystr=&quot;Thu&quot;]//textarea[@name=&quot;Description&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

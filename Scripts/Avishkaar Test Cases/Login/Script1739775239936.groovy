@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://sftd1--testingcoe.sandbox.my.site.com/CRMITCommunity/s/')
 
+WebUI.maximizeWindow()
+
 WebUI.setText(findTestObject('Avishkaar Object Repository/Login_Page/Username'), Username)
 
 WebUI.setText(findTestObject('Avishkaar Object Repository/Login_Page/Password'), Password)

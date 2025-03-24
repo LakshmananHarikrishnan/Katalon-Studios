@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tr[@data-daystr=&quot;Wed&quot;]/td[2]//lightning-base-combobox-item[@data-value=&quot;QA&quot;]</value>
+         <value>//lightning-base-combobox-item[@data-item-id=&quot;combobox-button-157-6&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

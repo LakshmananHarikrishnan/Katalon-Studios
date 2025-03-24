@@ -6,12 +6,12 @@
    <UUID>7d53c49a-67ac-430b-8975-127f14fcfd91</UUID>
    <createdEdition>FREE</createdEdition>
    <createdVersion>9.7.4</createdVersion>
-   <freeLicense>true</freeLicense>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
-   <modifiedEdition>FREE</modifiedEdition>
-   <modifiedVersion>9.7.4</modifiedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>10.1.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>D:\Automation\Katalon Studios\Sample Project Git\Katalon-Studios.prj</projectFileLocation>
+   <projectFileLocation>D:\Automation\Katalon Studios\Katalon-Studios\Katalon-Studios.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
